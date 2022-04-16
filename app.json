@@ -1,0 +1,100 @@
+{
+    "name": "Lucifer Music Source V1.0",
+    "description": "سورس لوسيفر لـ تشغيل الاغاني في المكالمات الصوتيه للمجموعه .",
+    "logo": "https://telegra.ph/file/c118c574c4fadfd656a74.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Lucifer",
+    "LuciferMusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "الـ API-ID من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "الـ API-HASH  من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "إذا كنت تريد أن يغادر الحساب المساعد جميع الدردشات تلقائيًا بعد مرور بعض الوقت .",
+        "value": "True",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكن البوت من @BotFather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "الداتا بيز من هنا https://cloud.mongodb.com تقدر تسيبها فاضيه",
+        "value": "",
+        "required": false
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "اسم البوت ( يفضل عدم اسخدام الزخرفه )",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايدي الاونر - تقدر تضيف اكتر من اونر سيب مسافه بين كل ايدي و ايدي",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "كود البايروجرام من البوت @@HDD_GBOT",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Heroku API - من هنا https://dashboard.heroku.com/account",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Heroku APP Name - اول واحد كتبتو فوق ( اسم المشروع )",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايدي جروب اللوجات",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "متغيرهاش !!",
+        "value": "https://github.com/DeVPHPJS/Lucifer-Source",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "متغيرهاش !!",
+        "value": "master",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
