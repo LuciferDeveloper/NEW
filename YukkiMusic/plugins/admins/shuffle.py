@@ -19,7 +19,7 @@ from YukkiMusic.misc import db
 from YukkiMusic.utils.decorators import AdminRightsCheck
 
 # Commands
-SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
+SHUFFLE_COMMAND = get_command("SHULE_COMMAND")
 
 
 @app.on_message(
