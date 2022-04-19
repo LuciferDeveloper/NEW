@@ -19,16 +19,14 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**YUKKI PLAY LOG**
+**New Query Given**
 
 **Chat:** {message.chat.title} [`{message.chat.id}`]
 **User:** {message.from_user.mention}
 **Username:** @{message.from_user.username}
 **User ID:** `{message.from_user.id}`
 **Chat Link:** {chatusername}
-
 **Query:** {message.text}
-
 **StreamType:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
             try:
