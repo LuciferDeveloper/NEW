@@ -11,56 +11,56 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping", "بينج"]
+PING_COMMAND : ["ping", f"بينج"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["help", "مساعده", "مساعدة"]
-SETTINGS_COMMAND : ["settings", "setting", "الاعدادات"]
-RELOAD_COMMAND : ["admincache", "reload", "ريسارت"]
-GSTATS_COMMAND : ["gstats", "احصائيات"]
-STATS_COMMAND : ["stats", "الاحصائيات"]
-LANGUAGE_COMMAND : ["lang", "language", "langs", "اللغه", "اللغة"]
+HELP_COMMAND : ["help", f"مساعده", f"مساعدة"]
+SETTINGS_COMMAND : ["settings", "setting", f"الاعدادات"]
+RELOAD_COMMAND : ["admincache", "reload", f"ريسارت"]
+GSTATS_COMMAND : ["gstats", f"احصائيات"]
+STATS_COMMAND : ["stats", f"الاحصائيات"]
+LANGUAGE_COMMAND : ["lang", "language", "langs", f"اللغه", f"اللغة"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playorce", "vplayorce", "cplayorce", "cvplayorce", "تشغيل", "شغل"]
-PLAYMODE_COMMAND : ["playmode", "التشغيل"]
-CHANNELPLAY_COMMAND : ["channelplay", "التشغيل2"]
-STREAM_COMMAND : ["stream", "cstream", "streamorce", "تشغيل فيديو"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playorce", "vplayorce", "cplayorce", "cvplayorce", f"تشغيل", f"شغل"]
+PLAYMODE_COMMAND : ["playmode", f"التشغيل"]
+CHANNELPLAY_COMMAND : ["channelplay", f"التشغيل2"]
+STREAM_COMMAND : ["stream", "cstream", "streamorce", f"تشغيل فيديو"]
 
-#Playlists Command
-PLAYLIST_COMMAND : ["playlist", "القائمه"]
-DELETEPLAYLIST_COMMAND : ["deleteplaylist", "مسح القائمه"]
+#Playlists Commands
+PLAYLIST_COMMAND : ["playlist", f"القائمه"]
+DELETEPLAYLIST_COMMAND : ["deleteplaylist", f"مسح القائمه"]
 
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["song", "video", "اغنيه", "فيديو"]
-LYRICS_COMMAND : ["lyrics", "الكلمات"]
+SONG_COMMAND : ["song", "video", f"اغنيه", f"فيديو"]
+LYRICS_COMMAND : ["lyrics", f"الكلمات"]
 
 
 # Admin Commands
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause", "اسكت"]
-RESUME_COMMAND : ["resume", "cresume", "كمل"]
-MUTE_COMMAND : ["mute", "cmute", "كتم"]
-UNMUTE_COMMAND : ["unmute", "cunmute", "اتكلم"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend", "كفايه"]
-SKIP_COMMAND : ["skip", "cskip", "التالي"]
-SHULE_COMMAND : ["shule", "cshule", "خلط"]
-LOOP_COMMAND : ["loop", "cloop", "اعاده", "اعادة", "عيد"]
+PAUSE_COMMAND : ["pause", "cpause", f"اسكت"]
+RESUME_COMMAND : ["resume", "cresume", f"كمل"]
+MUTE_COMMAND : ["mute", "cmute", f"كتم"]
+UNMUTE_COMMAND : ["unmute", "cunmute", f"اتكلم"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", f"كفايه"]
+SKIP_COMMAND : ["skip", "cskip", f"التالي"]
+SHULE_COMMAND : ["shule", "cshule", f"خلط"]
+LOOP_COMMAND : ["loop", "cloop", f"اعاده", f"اعادة", f"عيد"]
 SEEK_COMMAND : ["seek", "cseek", "seekback", "cseekback"]
-RESTART_COMMAND : ["restart", "اعاده تشغيل"]
+RESTART_COMMAND : ["restart", f"اعاده تشغيل"]
 
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "رفع مطور"]
-DELSUDO_COMMAND : ["delsudo", "تنزيل مطور"]
-SUDOUSERS_COMMAND : ["sudolist", "المطورين"]
+ADDSUDO_COMMAND : ["addsudo", f"رفع مطور"]
+DELSUDO_COMMAND : ["delsudo", f"تنزيل مطور"]
+SUDOUSERS_COMMAND : ["sudolist", f"المطورين"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast", "اذاعه"]
+BROADCAST_COMMAND : ["broadcast", f"اذاعه"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -72,7 +72,7 @@ VIDEOLIMIT_COMMAND : ["set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance", "صيانه"]
+MAINTENANCE_COMMAND : ["maintenance", f"صيانه"]
 LOGGER_COMMAND : ["logger"]
 
 #Heroku
@@ -85,7 +85,7 @@ VARS_COMMAND : ["vars", "conig"]
 
 
 #Basic Bot Commands
-UPDATE_COMMAND : ["update", "تحديث"]
+UPDATE_COMMAND : ["update", f"تحديث"]
 REBOOT_COMMAND : ["reboot"]
 AUTOEND_COMMAND : ["autoend"]
 
