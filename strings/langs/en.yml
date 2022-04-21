@@ -237,9 +237,9 @@ stream_4 : "📡 **Started Streaming** 💡\n\n**🏷Title:** [{0}]({1})\n⌛️
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Close"
-CLOSEMENU_BUTTON  : "🗑 Close Menu"
-BACK_BUTTON : "⬅ Back"
+CLOSE_BUTTON  : "🗑 ⋮ اغلاق"
+CLOSEMENU_BUTTON  : "❌ ⋮ قفل القائمه"
+BACK_BUTTON : "⬅ ⋮ الرجوع"
 UNBAN_BUTTON : "🗑 Unban Assistant"
 
 #Lyrics
@@ -256,12 +256,12 @@ S_B_7 : "👤 ⋮ مطور البوت"
 S_B_8 : "⚜️ ⋮ الأوامر"
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
-H_B_6 : "SudoUser Commands"
+H_B_1 : "🛠 ⋮ اوامر الادمن"
+H_B_2 : "🎶 ⋮ اوامر التشغيل"
+H_B_3 : "🤖 ⋮ اوامر البوت"
+H_B_4 : "💬 ⋮ اوامر اضافيه"
+H_B_5 : "❌ ⋮ قفل القائمه"
+H_B_6 : "⚜️ ⋮ اوامر المطور"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
