@@ -39,8 +39,13 @@ from YukkiMusic.utils.stream.stream import stream
 
 PLAY_COMMAND = get_command("PLAY_COMMAND")
 
-@app.on_message(play_commnd(["mplay","شغيل","غل","play", f"تشغيل"]) & other_filters)
 
+@app.on_message(
+    filters.command(PLAY_COMMAND)
+    & filters.group
+    & ~filters.edited
+    & ~BANNED_USERS
+)
 @PlayWrapper
 async def play_commnd(
     client,
